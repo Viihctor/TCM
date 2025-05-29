@@ -1,0 +1,39 @@
+@startuml
+actor Usuario
+
+participant "LoginView" as Login
+participant "MenuView" as Menu
+participant "CardController" as Controller
+participant "CardModel" as Model
+participant "CardView" as View
+participant "ExportadorPNG" as Exportador
+
+== Login ==
+Usuario -> Login: inserirCredenciais()
+Login -> Controller: autenticarUsuario(credenciais)
+Controller -> Model: verificarCredenciais()
+Model --> Controller: resultado
+Controller -> Login: mostrarResultado()
+
+== Acesso ao Menu ==
+Usuario -> Menu: navegarParaCriacao()
+
+== Criação do Cartão ==
+Usuario -> View: preencherDados()
+View -> Controller: criarCartao(dados)
+Controller -> Model: salvarDados(dados)
+Model --> Controller: confirmação
+Controller -> View: mostrarCartao()
+
+== Visualização do Cartão ==
+Usuario -> View: clicarVisualizar()
+View -> Controller: visualizarCartao()
+Controller -> View: animarCartao()
+
+== Exportação ==
+Usuario -> View: clicarExportar()
+View -> Controller: exportarImagem()
+Controller -> Exportador: gerarPNG(model)
+Exportador --> Controller: imagem.png
+Controller -> View: mostrarMensagemSucesso()
+@enduml

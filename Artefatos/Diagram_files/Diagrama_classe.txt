@@ -1,0 +1,34 @@
+@startuml
+class CardModel {
+  - nome: String
+  - avatar: Image
+  - pokemons: List<Pokemon>
+  - insígnias: List<Image>
+  + getDados()
+  + setDados()
+}
+
+class CardView {
+  + exibirInterface()
+  + mostrarCartao(CardModel)
+  + mostrarMensagem(String)
+}
+
+class CardController {
+  - model: CardModel
+  - view: CardView
+  + criarCartao(dados)
+  + salvarCartao()
+  + carregarCartao()
+  + exportarImagem()
+}
+
+class Pokemon {
+  - nome: String
+  - imagem: Image
+}
+
+CardController --> CardModel
+CardController --> CardView
+CardModel --> "0..6" Pokemon
+@enduml
