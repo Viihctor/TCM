@@ -46,10 +46,10 @@ PokemonTrainerCard/
 
 ## Diagramas do Projeto
 
-Os diagramas estão disponíveis na pasta [`diagramas/`](diagramas/Diagram_images).
+Os diagramas estão disponíveis na pasta [`diagramas/`](Artefatos/Diagram_images).
 
 ### Arquivos de Projeto (PlantUML, Draw.io, etc.)
-Os arquivos-fonte dos diagramas estão disponíveis na pasta: [`diagramas/`](diagramas/Diagram_files). Incluímos os seguintes modelos:
+Os arquivos-fonte dos diagramas estão disponíveis na pasta: [`diagramas/`](Artefatos/Diagram_files). Incluímos os seguintes modelos:
 
 ### Imagens dos Diagramas
 
