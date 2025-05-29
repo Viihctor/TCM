@@ -8,7 +8,7 @@
 Este projeto, **Pokemon Trainer Card**, é uma aplicação desenvolvida em **Java** que permite aos usuários criarem e gerenciarem seus próprios cartões de treinador Pokémon. Ele conta com uma interface gráfica intuitiva e funcionalidades como login, cadastro e gestão de cartões.
 
 ### Documentação de Projeto
-- Pdf:
+- Pdf:[`Trabalho 2`](https://github.com/Viihctor/TCM/blob/main/Artefatos/Trabalho%202%20-%20Documenta%C3%A7%C3%A3o%20de%20Projeto.pdf).
 
 
 ## Funcionalidades
@@ -46,7 +46,7 @@ PokemonTrainerCard/
 
 ## Diagramas do Projeto
 
-Os diagramas estão disponíveis na pasta [`diagramas/`](diagramas/). Incluímos os seguintes modelos:
+Os diagramas e suas iamgens estão disponíveis na pasta [`Artefatos/`](/Artefatos). Incluímos os seguintes modelos:
 
 ### Imagens dos Diagramas
 
@@ -72,26 +72,9 @@ Os diagramas estão disponíveis na pasta [`diagramas/`](diagramas/). Incluímos
 ![UC-05]Artefatos/Diagram_images/sequencia_UC05_exportar_imagem.png)
 
 #### Diagrama Entidade-Relacionamento (DER)
-![Modelo de Dados](Artefatos/Diagram_images/diagrama_classes.png)
+![Modelo de Dados](Artefatos/Diagram_images/Entidade_Relacionamento.png)
 
 ### Arquivos de Projeto (PlantUML, Draw.io, etc.)
-
-Os arquivos-fonte dos diagramas estão disponíveis para edição na mesma pasta:
-
-- `.puml` – Diagramas PlantUML
-- `.drawio` – Arquivos editáveis no Draw.io
-- `.txt` – Códigos PlantUML em texto puro
-
-## Contribuição
-Fique à vontade para contribuir com melhorias! Para isso:
-1. Faça um fork do repositório
-2. Crie uma nova branch (`git checkout -b minha-feature`)
-3. Faça suas alterações e commit (`git commit -m 'Minha melhoria'`)
-4. Envie as mudanças (`git push origin minha-feature`)
-5. Abra um Pull Request
-
-## Licença
-Este projeto está sob a licença [MIT](LICENSE).
 
 ## Imagens do Projeto
 
