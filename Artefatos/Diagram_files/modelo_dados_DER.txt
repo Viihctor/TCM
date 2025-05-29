@@ -1,0 +1,29 @@
+@startuml
+entity "Cartão" as Cartao {
+  +ID: int
+  +NomeTreinador: String
+  +Avatar: String
+}
+
+entity "Pokémon" {
+  +ID: int
+  +Nome: String
+  +Imagem: String
+}
+
+entity "Insígnia" {
+  +ID: int
+  +Nome: String
+  +Imagem: String
+}
+
+entity "Usuário" {
+  +ID: int
+  +Nome: String
+  +Email: String
+}
+
+Cartao }o--|| "Usuário" : pertence
+Cartao ||--o{ "Pokémon" : possui
+Cartao ||--o{ "Insígnia" : contém
+@enduml

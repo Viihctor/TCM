@@ -1,0 +1,12 @@
+@startuml
+actor Usuario
+participant CardView
+participant CardController
+participant CardModel
+
+Usuario -> CardView: editarDados()
+CardView -> CardController: atualizarCartao(novosDados)
+CardController -> CardModel: atualizarDados(novosDados)
+CardModel --> CardController: confirmação
+CardController -> CardView: mostrarCartaoAtualizado()
+@enduml

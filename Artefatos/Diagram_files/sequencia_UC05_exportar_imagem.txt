@@ -1,0 +1,12 @@
+@startuml
+actor Usuario
+participant CardView
+participant CardController
+participant ExportadorPNG
+
+Usuario -> CardView: clicarExportar()
+CardView -> CardController: exportarImagem()
+CardController -> ExportadorPNG: gerarPNG(model)
+ExportadorPNG --> CardController: imagem.png
+CardController -> CardView: mostrarMensagemSucesso()
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+actor Usuario
+participant CardView
+participant CardController
+participant CardModel
+
+Usuario -> CardView: solicitarCarregamento()
+CardView -> CardController: carregarCartao(arquivo)
+CardController -> CardModel: carregarDados(arquivo)
+CardModel --> CardController: dados
+CardController -> CardView: mostrarCartao()
+@enduml

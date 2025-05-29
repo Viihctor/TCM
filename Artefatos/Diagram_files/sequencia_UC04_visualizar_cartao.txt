@@ -1,0 +1,12 @@
+@startuml
+actor Usuario
+participant CardView
+participant CardController
+participant AnimationEngine
+
+Usuario -> CardView: clicarVisualizar()
+CardView -> CardController: visualizarCartao()
+CardController -> AnimationEngine: aplicarAnimacoes()
+AnimationEngine --> CardController: cartão animado
+CardController -> CardView: exibirCartaoAnimado()
+@enduml

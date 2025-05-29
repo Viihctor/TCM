@@ -1,0 +1,11 @@
+@startuml
+actor "Usuário" as Usuario
+
+rectangle "Trainer Card Maker" {
+  Usuario --> (UC-01: Criar Cartão)
+  Usuario --> (UC-02: Atualizar Cartão)
+  Usuario --> (UC-03: Carregar Cartão)
+  Usuario --> (UC-04: Visualizar Cartão)
+  Usuario --> (UC-05: Exportar Cartão como Imagem)
+}
+@enduml
