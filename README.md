@@ -61,13 +61,13 @@ Os arquivos-fonte dos diagramas estão disponíveis na pasta: [`diagramas/`](dia
 ![Casos de Uso](Artefatos/Diagram_images/diagrama_classes.png)
 
 #### Diagrama de Sequência 
-![UC-05]Artefatos/Diagram_images/diagrama_de_Sequencia.png)
+![UC-05](Artefatos/Diagram_images/diagrama_de_Sequencia.png)
 
 #### Diagrama de Componentes e implantação
-![UC-05]Artefatos/Diagram_images/diagrama_de_Comp_Implantação.png)
+![UC-05](Artefatos/Diagram_images/diagrama_de_Comp_Implantação.png)
 
 #### Diagrama de Comunicação
-![UC-05]Artefatos/Diagram_images/diagrama_comunicação.png)
+![UC-05](Artefatos/Diagram_images/diagrama_comunicação.png)
 
 #### Diagrama de estados
 ![UC-01](Artefatos/Diagram_images/diagrama_estados.png)
