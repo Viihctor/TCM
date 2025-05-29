@@ -8,7 +8,7 @@
 Este projeto, **Pokemon Trainer Card**, é uma aplicação desenvolvida em **Java** que permite aos usuários criarem e gerenciarem seus próprios cartões de treinador Pokémon. Ele conta com uma interface gráfica intuitiva e funcionalidades como login, cadastro e gestão de cartões.
 
 ### Documentação de Projeto
-- Pdf:
+- Pdf:[`Documentação do Projeto/`]([diagramas/Diagram_images](https://github.com/Viihctor/TCM/blob/main/Artefatos/Trabalho%202%20-%20Documenta%C3%A7%C3%A3o%20de%20Projeto.pdf)).
 
 
 ## Funcionalidades
