@@ -1,0 +1,11 @@
+@startuml
+[*] --> Vazio
+
+Vazio --> Preenchido: inserir dados
+Preenchido --> Gerado: clicar "Gerar"
+Gerado --> Salvo: clicar "Salvar"
+Gerado --> Exportado: clicar "Exportar"
+
+Salvo --> [*]
+Exportado --> [*]
+@enduml
