@@ -46,49 +46,35 @@ PokemonTrainerCard/
 
 ## Diagramas do Projeto
 
-Os diagramas estão disponíveis na pasta [`diagramas/`](diagramas/). Incluímos os seguintes modelos:
+Os diagramas estão disponíveis na pasta [`diagramas/`](diagramas/Diagram_images).
+
+### Arquivos de Projeto (PlantUML, Draw.io, etc.)
+Os arquivos-fonte dos diagramas estão disponíveis na pasta: [`diagramas/`](diagramas/Diagram_files). Incluímos os seguintes modelos:
 
 ### Imagens dos Diagramas
 
+
 #### Diagrama de Casos de Uso
-![Casos de Uso](diagramas/caso_de_uso.png)
+![Diagrama de Classes](Artefatos/Diagram_images/diagrama_casodeuso.png)
 
 #### Diagrama de Classes
-![Diagrama de Classes](Artefatos/Diagram_images/diagrama_classes.png)
+![Casos de Uso](Artefatos/Diagram_images/diagrama_classes.png)
 
-#### Diagrama de Sequência – Criar Cartão
-![UC-01](Artefatos/Diagram_images/sequencia_UC01_criar_cartao.png)
+#### Diagrama de Sequência 
+![UC-05]Artefatos/Diagram_images/diagrama_de_Sequencia.png)
 
-#### Diagrama de Sequência – Atualizar Cartão
-![UC-02](Artefatos/Diagram_images/sequencia_UC02_atualizar_cartao.png)
+#### Diagrama de Componentes e implantação
+![UC-05]Artefatos/Diagram_images/diagrama_de_Comp_Implantação.png)
 
-#### Diagrama de Sequência – Carregar Cartão
-![UC-03](Artefatos/Diagram_images/sequencia_UC03_carregar_cartao.png)
+#### Diagrama de Comunicação
+![UC-05]Artefatos/Diagram_images/diagrama_comunicação.png)
 
-#### Diagrama de Sequência – Visualizar Cartão
-![UC-04](Artefatos/Diagram_images/sequencia_UC04_visualizar_cartao.png)
-
-#### Diagrama de Sequência – Exportar Imagem
-![UC-05]Artefatos/Diagram_images/sequencia_UC05_exportar_imagem.png)
+#### Diagrama de estados
+![UC-01](Artefatos/Diagram_images/diagrama_estados.png)
 
 #### Diagrama Entidade-Relacionamento (DER)
 ![Modelo de Dados](Artefatos/Diagram_images/diagrama_classes.png)
 
-### Arquivos de Projeto (PlantUML, Draw.io, etc.)
-
-Os arquivos-fonte dos diagramas estão disponíveis para edição na mesma pasta:
-
-- `.puml` – Diagramas PlantUML
-- `.drawio` – Arquivos editáveis no Draw.io
-- `.txt` – Códigos PlantUML em texto puro
-
-## Contribuição
-Fique à vontade para contribuir com melhorias! Para isso:
-1. Faça um fork do repositório
-2. Crie uma nova branch (`git checkout -b minha-feature`)
-3. Faça suas alterações e commit (`git commit -m 'Minha melhoria'`)
-4. Envie as mudanças (`git push origin minha-feature`)
-5. Abra um Pull Request
 
 ## Licença
 Este projeto está sob a licença [MIT](LICENSE).
